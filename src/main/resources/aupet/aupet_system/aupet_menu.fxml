@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="900.0" maxWidth="1600.0" minHeight="900.0" minWidth="1600.0" prefHeight="900.0" prefWidth="1600.0" style="-fx-background-color: #141414;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aupet.aupet_system.ControllerAupetMenu">
+   <children>
+      <ImageView id="logo" fitHeight="320.0" fitWidth="320.0" layoutX="112.0" layoutY="580.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../!JAVA/AUPET/aupet_logo_violet.png" />
+         </image>
+         <effect>
+            <Bloom />
+         </effect>
+      </ImageView>
+      <AnchorPane layoutX="587.0" layoutY="284.0" prefHeight="530.0" prefWidth="942.0" style="-fx-background-color: #1e1c21; -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="98.0" layoutY="199.0" prefHeight="19.0" prefWidth="221.0" text="Системное программирование" textFill="#dddddd">
+               <font>
+                  <Font name="Segoe UI Semibold" size="14.0" />
+               </font>
+            </Label>
+            <ProgressBar fx:id="progressbar1" layoutX="98.0" layoutY="235.0" prefHeight="22.0" prefWidth="320.0" progress="0.82" style="-fx-background-color: transparent; -fx-background-insets: 0; -fx-border-color: #dddddd; -fx-background-radius: 0; -fx-border-radius: 0;" />
+            <ProgressBar fx:id="progressbar2" layoutX="524.0" layoutY="235.0" prefHeight="22.0" prefWidth="320.0" progress="0.75" style="-fx-background-color: transparent; -fx-background-insets: 0; -fx-border-color: #dddddd; -fx-background-radius: 0; -fx-border-radius: 0;" />
+            <Label layoutX="524.0" layoutY="199.0" prefHeight="19.0" prefWidth="221.0" text="Пентестинг" textFill="#dddddd">
+               <font>
+                  <Font name="Segoe UI Semibold" size="14.0" />
+               </font>
+            </Label>
+            <ProgressBar fx:id="progressbar3" layoutX="98.0" layoutY="337.0" prefHeight="22.0" prefWidth="320.0" progress="0.42" style="-fx-background-color: transparent; -fx-background-insets: 0; -fx-border-color: #dddddd; -fx-background-radius: 0; -fx-border-radius: 0;" />
+            <Label layoutX="98.0" layoutY="301.0" prefHeight="19.0" prefWidth="221.0" text="Программирование на Java" textFill="#dddddd">
+               <font>
+                  <Font name="Segoe UI Semibold" size="14.0" />
+               </font>
+            </Label>
+            <ProgressBar fx:id="progressbar4" layoutX="524.0" layoutY="337.0" prefHeight="22.0" prefWidth="320.0" progress="0.72" style="-fx-background-color: transparent; -fx-background-insets: 0; -fx-border-color: #dddddd; -fx-background-radius: 0; -fx-border-radius: 0;" />
+            <Label layoutX="524.0" layoutY="301.0" prefHeight="19.0" prefWidth="221.0" text="Cisco CCNAv7" textFill="#dddddd">
+               <font>
+                  <Font name="Segoe UI Semibold" size="14.0" />
+               </font>
+            </Label>
+            <ProgressBar fx:id="progressbar5" layoutX="98.0" layoutY="443.0" prefHeight="22.0" prefWidth="320.0" progress="0.15" style="-fx-background-color: transparent; -fx-background-insets: 0; -fx-border-color: #dddddd; -fx-background-radius: 0; -fx-border-radius: 0;" />
+            <Label layoutX="98.0" layoutY="407.0" prefHeight="19.0" prefWidth="221.0" text="Основы Linux" textFill="#dddddd">
+               <font>
+                  <Font name="Segoe UI Semibold" size="14.0" />
+               </font>
+            </Label>
+            <ProgressBar fx:id="progressbar6" layoutX="524.0" layoutY="443.0" prefHeight="22.0" prefWidth="320.0" progress="0.64" style="-fx-background-color: transparent; -fx-background-insets: 0; -fx-border-color: #dddddd; -fx-background-radius: 0; -fx-border-radius: 0;" />
+            <Label layoutX="524.0" layoutY="407.0" prefHeight="19.0" prefWidth="221.0" text="Базы данных MySQL" textFill="#dddddd">
+               <font>
+                  <Font name="Segoe UI Semibold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="53.0" layoutY="48.0" prefHeight="19.0" prefWidth="221.0" text="N-курс" textFill="#dddddd">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Label>
+            <Circle fill="#7030a0" layoutX="917.0" layoutY="25.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="587.0" layoutY="44.0" prefHeight="208.0" prefWidth="942.0" style="-fx-background-color: #1e1c21; -fx-background-radius: 20;">
+         <children>
+            <Label fx:id="usernameLabel" layoutX="37.0" layoutY="37.0" prefHeight="40.0" prefWidth="548.0" text="user" textFill="#dddddd">
+               <font>
+                  <Font name="Segoe UI Semibold" size="30.0" />
+               </font>
+            </Label>
+            <Circle fill="#7030a0" layoutX="916.0" layoutY="26.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="1320.0" layoutY="858.0" prefHeight="28.0" prefWidth="379.0" text="Non-profit project, Work In Progress ;)" textFill="#dddddd">
+         <font>
+            <Font name="Segoe UI Semilight" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,86 @@
+#firstname{
+-fx-background-color: transparent;
+-fx-border-color: #dddddd;
+-fx-border-radius: 10;
+-fx-text-fill: #dddddd;
+}
+#firstname:hover{
+-fx-border-color: #7030A0;
+}
+
+#lastname{
+-fx-background-color: transparent;
+-fx-border-color: #dddddd;
+-fx-border-radius: 10;
+-fx-text-fill: #dddddd;
+}
+#lastname:hover{
+-fx-border-color: #7030A0;
+}
+
+#username{
+-fx-background-color: transparent;
+-fx-border-color: #dddddd;
+-fx-border-radius: 10;
+-fx-text-fill: #dddddd;
+}
+#username:hover{
+-fx-border-color: #7030A0;
+}
+
+#password{
+-fx-background-color: transparent;
+-fx-border-color: #dddddd;
+-fx-border-radius: 10;
+-fx-text-fill: #dddddd;
+}
+#password:hover{
+-fx-border-color: #7030A0;
+}
+
+
+#usertypeChoicebox {
+-fx-background-color: transparent;
+-fx-background-radius: 10;
+-fx-border-color: #dddddd;
+-fx-border-radius: 10;
+-fx-mark-color: white;
+-fx-selection-bar: #7030A0;
+-fx-text-fill: #dddddd;
+font-family: "Segoe UI Light";
+}
+#usertypeChoicebox:hover{
+-fx-border-color: #7030A0;
+}
+#usertypeChoicebox .context-menu {
+-fx-background-color: #2b2b2b ;
+}
+#usertypeChoicebox .label {
+ -fx-text-fill: white;
+}
+
+#RegistrationButton{
+-fx-background-color: transparent;
+-fx-border-color: #7030A0;
+-fx-border-radius: 10;
+-fx-background-radius: 10;
+-fx-text-fill: #dddddd;
+}
+#RegistrationButton:hover {
+-fx-background-color:#7030A0;
+-fx-transition: 1s;
+-fx-text-fill: #dddddd;
+}
+
+#BackToButton{
+-fx-background-color: transparent;
+-fx-border-color: #7030A0;
+-fx-border-radius: 10;
+-fx-background-radius: 10;
+-fx-text-fill: #dddddd;
+}
+#BackToButton:hover {
+-fx-background-color:#7030A0;
+-fx-transition: 1s;
+-fx-text-fill: #dddddd;
+}

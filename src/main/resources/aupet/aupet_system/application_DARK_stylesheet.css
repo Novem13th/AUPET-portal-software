@@ -1,0 +1,105 @@
+#BgAnchorPane{
+-fx-background-color: #141414;
+}
+
+#LoginAnchor{
+-fx-background-color: #2b2b2b;
+}
+
+#BgCircle1{
+-fx-fill: #1b1b1b;
+}
+
+#BgCircle2{
+-fx-fill: #1e1e1e
+}
+
+#CircleBig{
+-fx-fill: #7030A0;
+}
+
+#CircleLittle1{
+-fx-fill: #7030A0;
+}
+
+#CircleLittle2{
+-fx-fill: #7030A0;
+}
+
+#LoginTextField{
+-fx-background-color: transparent;
+-fx-border-color: #dddddd;
+-fx-border-radius: 10;
+-fx-text-fill: #dddddd;
+}
+#LoginTextField:hover{
+-fx-border-color: #7030A0;
+}
+
+#PasswordField{
+-fx-background-color: transparent;
+-fx-border-color: #dddddd;
+-fx-border-radius: 10;
+-fx-text-fill: #dddddd;
+}
+#PasswordField:hover{
+-fx-border-color: #7030A0;
+}
+
+#LoginButton {
+-fx-transition: 1s;
+-fx-background-color: transparent;
+-fx-border-color: #7030A0;
+-fx-border-radius: 10;
+-fx-background-radius: 10;
+-fx-text-fill: #dddddd;
+}
+#LoginButton:hover {
+-fx-background-color:#7030A0;
+-fx-text-fill: #dddddd;
+-fx-border-color: #7030A0;
+}
+
+#RegistrationButton {
+-fx-background-color: transparent;
+-fx-border-color: #7030A0;
+-fx-border-radius: 10;
+-fx-background-radius: 10;
+-fx-text-fill: #dddddd;
+-fx-transition: -fx-background-color 0.3 ease, -fx-text-fill 0.3s ease;
+}
+#RegistrationButton:hover {
+-fx-background-color:#7030A0;
+-fx-text-fill: #dddddd;
+-fx-border-color: #7030A0;
+}
+
+#LightThemeButton{
+-fx-background-color: transparent;
+-fx-border-color: #7030A0;
+-fx-border-radius: 10;
+-fx-background-radius: 10;
+-fx-text-fill: #dddddd;
+-fx-transition: -fx-background-color 0.3 ease, -fx-text-fill 0.3s ease;
+}
+
+#LightThemeButton:hover {
+-fx-background-color:#7030A0;
+-fx-text-fill: #dddddd;
+-fx-border-color: #7030A0;
+}
+
+#DarkThemeButton{
+-fx-background-color: transparent;
+-fx-border-color: #7030A0;
+-fx-border-radius: 10;
+-fx-background-radius: 10;
+-fx-text-fill: #dddddd;
+-fx-transition: -fx-background-color 0.3 ease, -fx-text-fill 0.3s ease;
+}
+
+#DarkThemeButton:hover {
+-fx-background-color:#7030A0;
+-fx-text-fill: #dddddd;
+-fx-border-color: #7030A0;
+}
